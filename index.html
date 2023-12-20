@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>FlexBox DashBoard</h1>
+            <h3>Flex Direction :- </h3>
+            <button onclick="flexrow()" >row</button>
+            <button onclick="flexcolumn()">column</button>
+            <button onclick="flexrowreverse()">row-reverse</button>
+            <button onclick="flexcolumnreverse()">column-reverse</button>
+
+        </div>
+        <div class="just"><p>---------------------------</p>
+            <h3>Choose where to group flex items:-</h3>
+            <button onclick="flexitemstart()">Start</button>
+            <button onclick="flexitemscenter()">Center</button>
+            <button onclick="flexitemsend()">End</button>
+            <button onclick="flexitemssaround()">Space Around</button>
+            <button onclick="flexitemssbetween()">Space Between</button>
+    </div>
+    <div class="item-list">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

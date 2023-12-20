@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item-list{
+    display: flex;
+    border: 3px solid #fe6404;
+    background-color: aliceblue;
+    padding: 10px 10px;
+}
+.item-list.flexcolumn{
+    display: flex;
+    border: 3px solid #fe6404;
+    background-color: aliceblue;
+    padding: 10px 10px;
+    height: 300px;
+}
+.item-list.flexcolumnreverse{
+    display: flex;
+    border: 3px solid #fe6404;
+    background-color: aliceblue;
+    padding: 10px 10px;
+    height: 300px;
+}
+.item{
+    /* border: 3px solid #2104fe; */
+    padding: 1px;
+}
+.item-list>div:nth-child(1){
+    background-color: #fe6404;
+    text-align: center;
+}
+.item-list>div:nth-child(2){
+    background-color: #fee904;
+    text-align: center;
+}
+.item-list>div:nth-child(3){
+    background-color: #04fefe;
+    text-align: center;
+}
+.item-list>div:nth-child(4){
+    background-color: #affe04;
+    text-align: center;
+}
+
+/* Flex Direction */
+.flexrow{
+    flex-direction: row;
+}
+.flexrow-reverse{
+    flex-direction: row-reverse;
+}
+.flexcolumn{
+    flex-direction: column;
+
+}
+.flexcolumnreverse{
+    flex-direction: column-reverse;
+}
+
+
+/* Justifying group */
+.justifyStart{
+    justify-content: flex-start;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.justifyEnd{
+    justify-content: flex-end;
+}
+.justifySpaceAround{
+    justify-content: space-around;
+}
+.justifySpaceBetween{
+    justify-content: space-between;
+}
