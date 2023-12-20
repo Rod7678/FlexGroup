@@ -1,5 +1,6 @@
 # FlexGroup 
-The flexbox Group Displays To start using the Flexbox model, you need to first define a flex container.
+The flexbox Group Displays the simple html webpage to understand the flex box properties.
+To start using the Flexbox model, you need to first define a flex container.
 ## Flex box parent element (container)
 Like we specified in the previous , this is a flex container in this project with four flex items with class items.
 The flex container becomes flexible by setting the display property to flex.
